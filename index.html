@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>E-commerce product page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="overlay-menu hidden"></div>
+    <header>
+
+        <nav class="navbar-horizontal">
+
+            <div class="container-navbar">
+
+
+                <div class="sec-1">
+                    <img src="images/icon-menu.svg" alt="icon-menu" class="icon-menu">
+                    <img src="images/logo.svg" alt="logo" class="logo">
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#">Collections</a>
+                        </li>
+                        <li>
+                            <a href="#">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Women</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sec-2">
+                    <div class="cart-item">
+                        <span class="amount-items hidden">0</span>
+                        <img src="images/icon-cart.svg" alt="icon-cart">
+
+                    </div>
+                    <img src="images/image-avatar.png" alt="image-avatar" class="image-avatar">
+
+                </div>
+
+            </div>
+            <hr>
+
+
+        </nav>
+
+        <div class="nav-left hidden">
+
+            <div class="content-nav-left">
+                <img src="images/icon-close.svg" alt="icon-close" class="icon-close">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">Collections</a>
+                    </li>
+                    <li>
+                        <a href="#">Men</a>
+                    </li>
+                    <li>
+                        <a href="#">Women</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="cart-content hidden">
+            <h5>Cart</h5>
+            <hr>
+            <div class="cart">
+                <div class="empty">
+                    <p>Your cart is empty</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+    <main>
+        <div class="container-grid">
+            <div class="images-content">
+                <div class="main-photo">
+                    <img src="images/image-product-1.jpg" alt="image-product-1" class="main-image">
+                </div>
+                <div class="images_list">
+                    <img src="images/image-product-1.jpg" alt="image-product-1">
+                    <img src="images/image-product-2.jpg" alt="image-product-2">
+                    <img src="images/image-product-3.jpg" alt="image-product-3">
+                    <img src="images/image-product-4.jpg" alt="image-product-4">
+                </div>
+                <div class="container-slider">
+                    <div class="previus">
+                        < </div>
+                            <div class="next">></div>
+                    </div>
+
+                </div>
+                <div class="description-content">
+                    <p class="title"> Sneaker Company</p>
+                    <h2>Fall Limited Edition Sneakers</h2>
+
+                    <p> These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+                    <div class="container-price">
+                        <div class="price">
+
+                            $125.00
+
+                            <span class="ofer">50%</span>
+
+                        </div>
+                        <del> $250.00</del>
+                    </div>
+
+
+                    <div class="add-to-cart-content">
+                        <div class="first">
+                            <button type="submit"><img src="images/icon-minus.svg" alt="icon-minus" style="padding: 12px;" class="blus-button"></button>
+                            <span class="counter">0</span>
+                            <button><img src="images/icon-plus.svg" alt="icon-plus" style="padding: 8px;" class="minus-button"></button>
+
+
+                        </div>
+                        <div class="second">
+                            <button class="add-to-cart-botton">
+                            <img src="images/icon-cart.svg" alt="icon-cart">
+                            Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lightbox-overlay hidden"></div>
+            <div class="lightbox-container ">
+                <button class="close-lightbox">x</button>
+                <div class="image-main">
+                    <img src="images/image-product-1.jpg" alt="image-product-1-thumbnail">
+                </div>
+                <div class="images_list">
+
+                    <img src="images/image-product-1.jpg" alt="image-product-1">
+                    <img src="images/image-product-2.jpg" alt="image-product-2">
+                    <img src="images/image-product-3.jpg" alt="image-product-3">
+                    <img src="images/image-product-4.jpg" alt="image-product-4">
+                </div>
+            </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
