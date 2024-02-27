@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/andrewteece/ecommerce-product-page]
+- Solution URL: [https://github.com/AliAhmad-1/Ecommerce-product-page-main.git]
 - Live Site URL: [(https://aliahmad-1.github.io/Ecommerce-product-page-main/)]
 
 ## My process
